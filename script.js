@@ -775,10 +775,112 @@
 //     console.log(i);
 //   }
 // }
+// *************************************Chapter 21-25 ******************************************
+// **********************************Question1****************************
+// let firstName = prompt('What is your first name?');
+// let lastName = prompt('What is your last name?');
+// let fullName = firstName + ' ' + lastName;
+// alert('Hello ' + fullName + ', nice to meet you!');
 
+// **********************************Question2****************************
+// let favoritePhone = prompt('What is your favorite mobile phone model?');
+// let phoneLength = favoritePhone.length;
+// alert('The length of your favorite mobile phone model is ' + phoneLength + ' characters.');
 
+// **********************************Question3****************************
 
+// let word = 'Pakistani';
+// let letter = 'n';
+// let indexOfLetter = word.indexOf(letter);
+// alert('The index of ' + letter + ' in ' + word + ' is ' + indexOfLetter);
 
+// **********************************Question4****************************
+// let word = 'Hello World';
+// let letter = 'l';
+// let lastIndexOfLetter = word.lastIndexOf(letter);
+// alert('The last index of ' + letter + ' in ' + word + ' is ' + lastIndexOfLetter);
 
+// **********************************Question5****************************
 
+// let word = 'Pakistani';
+// let index = 3;
+// let character = word.charAt(index);
+// alert('The character at index ' + index + ' in ' + word + ' is ' + character);
 
+// **********************************Question6****************************
+
+// let firstName = prompt('What is your first name?');
+// let lastName = prompt('What is your last name?');
+// let fullName = firstName.concat(' ', lastName);
+// alert('Hello ' + fullName + ', nice to meet you!');
+
+// **********************************Question7****************************
+// let word = 'Hyderabad';
+// let replacedWord = word.replace('Hyder', 'Islam');
+// alert('The word ' + word + ' after replacing is ' + replacedWord);
+// **********************************Question8****************************
+// let message = 'Ali and Sami are best friends. They play cricket and football together.';
+// let replacedMessage = message.replace(/and/g, '&');
+// alert('The message after replacing is: ' + replacedMessage);
+
+// **********************************Question9****************************
+// let string = '472';
+// let number = Number(string);
+// console.log('Value: ' + string + ', type: ' + typeof(string) + '\nValue: ' + number + ', type: ' + typeof(number));
+// **********************************Question10****************************
+// let userInput = prompt('Enter some text: ');
+// let capitalLetters = userInput.toUpperCase();
+// alert('The text in capital letters is: ' + capitalLetters);
+
+// **********************************Question11****************************
+// let userInput = prompt('Enter some text: ');
+// let titleCase = userInput.charAt(0).toUpperCase() + userInput.slice(1);
+// alert('The text in title case is: ' + titleCase);
+// **********************************Question12****************************
+// let num = 35.36;
+// let numString = num.toString();
+// let numWithoutDot = numString.replace('.', '');
+// alert('The converted number is ' + numWithoutDot);
+// **********************************Question13****************************
+// let username = prompt('Enter a username: ');
+// if (/[@.,!]/.test(username)) {
+//     alert('Please enter a valid username.');
+// } else {
+//     alert('Username accepted!');
+// }
+
+// **********************************Question14****************************
+
+// let items = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
+// let userInput = prompt('What item do you want to search?');
+// let searchResult = items.includes(userInput.toLowerCase());
+// if (searchResult) {
+//     alert(userInput + ' is available in our bakery.');
+// } else {
+//     alert(userInput + ' is not available in our bakery.');
+// }
+
+// **********************************Question15****************************
+// let password = prompt('Enter a password: ');
+// if (/[0-9]/.test(password.charAt(0))) {
+//     alert('Password cannot start with a number. Please enter a valid password.');
+// } else if (password.length < 6) {
+//     alert('Password must be at least 6 characters long. Please enter a valid password.');
+// } else if (!/[0-9]/.test(password) || !/[a-z]/.test(password) || !/[A-Z]/.test(password)) {
+//     alert('Password must contain alphabets and numbers. Please enter a valid password.');
+// } else {
+//     alert('Password accepted!');
+// }
+// **********************************Question16****************************
+// let university = 'University of Karachi';
+// let universityArray = university.split(' ');
+// console.log(universityArray);
+// **********************************Question17****************************
+// let userInput = prompt('Enter some text: ');
+// let lastCharacter = userInput.charAt(userInput.length - 1);
+// alert('The last character of your input is ' + lastCharacter);
+// **********************************Question18****************************
+// let sentence = 'The quick brown fox jumps over the lazy dog';
+// let count = (sentence.match(/the/g) || []).length;
+// alert('The word "the" occurs ' + count + ' times in the sentence.');
+// ***************************************Done*************************************
